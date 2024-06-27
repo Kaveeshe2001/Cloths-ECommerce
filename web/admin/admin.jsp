@@ -128,6 +128,55 @@
                         </div>
                     </div>
                     
+                    <!-- Table -->
+                    <div class="row my-5">
+                        <h3 class="fs-4 mb-3">Recent Order</h3>
+                        <div class="col">
+                            <table class="table bg-white rounded shadow-sm table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" width="50">#</th>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Customer</th>
+                                        <th scope="col">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Television</td>
+                                        <td>Jonny</td>
+                                        <td>$1200</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Bra</td>
+                                        <td>Kelzi</td>
+                                        <td>$125</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Pants</td>
+                                        <td>Minoli</td>
+                                        <td>$95</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Dildo</td>
+                                        <td>Minoli</td>
+                                        <td>$540</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Trouser</td>
+                                        <td>Wino</td>
+                                        <td>$42</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
                 </div>
                 <!-- ==== Content end ==== -->
             </div>
