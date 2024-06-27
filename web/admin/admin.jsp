@@ -15,9 +15,9 @@
         <div class="d-flex" id="wrapper">
             
             <!-- ==== Sidebar start ==== -->
-            <div class="bg-white">
+            <div class="bg-white" id="sidebar-wrapper">
                 
-                <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase">
+                <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
                     <i class="fas fa-user-secret me-2"></i>Cloths.lk
                 </div>
                 
@@ -82,6 +82,12 @@
                         </ul>
                     </div>
                 </nav>
+                
+                <!-- ==== Content start ==== -->
+                <div class="container-fluid px-4">
+                    <h3>Content here</h3>
+                </div>
+                <!-- ==== Content end ==== -->
             </div>
             
             <!-- ==== Navbar end ==== -->
@@ -90,7 +96,14 @@
         
         
         
-        
+        <script>
+            var el = document.getElementById("wrapper")
+            var toggleButton = document.getElementById("menu-toggle")
+            
+            toggleButton.onclick = function () {
+                el.classList.toggle("toggled")
+            }
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
